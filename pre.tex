@@ -70,7 +70,7 @@ Bei diesem Modell muss erst jede Phase abgeschlossen werden, bevor zur nächsten
 \begin{figure}[h]
 \centering
 	\includegraphics[scale=0.6]{Images/wasserfallmodell}
-	\caption{Das Wasserfallmodell\cite{scrumkompakt:wasserfallmodell}}
+	\caption[Das Wasserfallmodell]{Das Wasserfallmodell\cite{scrumkompakt:wasserfallmodell}}
 	\label{fig:wasserfallmodell}
 \end{figure}
 Vor allem bei langläufigen Projekten ist der Einsatz des Wasserfallmodells sehr problematisch, da sich über lange Zeiträume oft die technischen Gegebenheiten und Umgebungsbedingungen ändern können. Sollte bei weit fortgeschrittenem Projektverlauf ein Fehler in einer früheren Phase entdeckt werden, ist nicht selten ein Projektabbruch die einzige Möglichkeit den Schaden einigermaßen zu begrenzen.
@@ -96,13 +96,30 @@ Auch ist es beim Wasserfallmodell oft schwierig, die einzelnen Phasen voneinande
 
 \chapter{Spiralmodell}
 \label{ch:spiralmodell}
-Das Spiralmodell wurde 1986 von Barry W. Boehm entwickelt. Es ist ein Vorgehensmodell welches auf dem iterativen Prozess aufbaut. Durch die Spiralform des Modells, wird ein wiederholtes Eingreifen durch das Management gewährleistet.
+Das Spiralmodell wurde 1986 von Barry W. Boehm entwickelt. Es ist ein risikogetriebenes Vorgehensmodell, welches auf dem Wasserfallmodell basiert, sich allerdings der Idee der Iteration bedient. Im Gegensatz zum Wasserfallmodell, werden alle Phasen immer wieder wiederholt, was eine kontinuierliche Verbesserung des Projektes erlaubt. Durch die Spiralform des Modells, wird ein wiederholtes Eingreifen durch das Management in jedem Zyklus gewährleistet.
+Durch die Anwendung dieses Vorgehensmodells, kann ein Projekt auch erfolgreich abgeschlossen werden, wenn sich Ziele oder Spezifikation währenddessen verändern. \par
 \begin{figure}[h]
 \centering
 	\includegraphics[scale=0.6]{Images/spiralmodell}
-	\caption{Das Spiralmodell\cite{wikipedia:spiralmodell}}
+	\caption[Das Spiralmodell]{Das Spiralmodell\cite{wikipedia:spiralmodell}}
 	\label{fig:spiralmodell}
 \end{figure}
+Wie in Abbildung \ref{fig:spiralmodell} zu sehen ist, bewegt sich die Linie (Zeitfortschritt) vom Ursprung aus nach außen. Jede Umdrehung um den Koordinatenursprung weist dabei einen vollendeten Zyklus auf.
+Während jedes Zyklus wiederholen sich immer die selben 4 Quadrandten:
+\begin{enumerate}
+	\item Festlegung der Ziele
+	\item Beurteilen von Alternativen und Risikoanalyse
+	\item Entwicklung und Test
+	\item Planung des nächsten Zyklus
+\end{enumerate}
+Ein Punkt, in welchem sich das Spiralmodell wesentlich vom Wasserfallmodell unterscheidet, ist die Risikobetrachtung. Zunächst werden Risiken analysiert und bewertet. In weiterer Folge wird versucht das gefährlichste Risiko zu identifizieren und zu beseitigen.
+Durch die Spiralform, wird diese Risikoanalyse zyklisch wiederholt. Daher können neu auftretende Risiken in der nächsten Iteration wieder erkannt und beseitigt werden. Scheitert die Risikobeseitigung in irgendeinem Zyklus, so gilt das Projekt als gescheitert. Sind am Ende des Projektes alle Risiken beseitigt und das Produkt einwandfrei, so wird das Projekt erfolgreich abgeschlossen betrachtet.
+\paragraph*{}
+Eine zentrale Rolle beim Spiralmodell spielt auch die Erstellung von Prototypen. Durch die wiederholte Erstellung bzw. Erneuerung des Prototypen, können Risiken frühzeitig erkannt werden. Der Prototyp wird im Laufe des Projektes kontinuierlich weiterentwickelt, sodass dieser bis zum finalen Produkt immer weiter verfeinert wird.
+\section{Vorteile des Spiralmodells}
+\label{sec:spiralmodell_vortile}
+
+
 
 \chapter{Evolutionsmodelle}
 

@@ -5,6 +5,8 @@
 \usepackage[backend=bibtex, style=numeric]{biblatex}
 \usepackage{hyperref}
 \usepackage{graphicx}
+\usepackage{url}
+\usepackage{caption}
 
 \author{Samuel Hammer}
 \title{Vorgehensmodelle zur Projektentwicklung}
@@ -62,7 +64,35 @@ Das heißt, obwohl wir die Werte auf der rechten Seite wichtig finden, schätzen
 
 \chapter{Wasserfallmodell}
 \label{ch:wasserfallmodell}
-
+Das Wasserfallmodell ist eines der ältesten linearen Vorgehensmodellen. Es ist nicht iterativ, d.h. wenn man nach dem Wasserfallmodell vorgeht, ist es prinzipiell nicht möglich einzelne Projektphasen zu wiederholen. Ursprünglich stammt das Wasserfallmodell aus der Bau- und Produktionsbranche. In anbetracht der Tatsache, dass zum damaligen Zeitpunkt noch kein eigenes brauchbares Modell zur Softwareentwicklung existierte, wurde das Wasserfallmodell schlicht und einfach für IT-Projekte adaptiert.
+\paragraph*{}
+Bei diesem Modell muss erst jede Phase abgeschlossen werden, bevor zur nächsten übergegangen werden kann. Daraus resultiert eine starke Unflexibilität, was das Wasserfallmodell vor allem bei Softwareprojekten sehr umständlich und beinahe unbrauchbar macht. Wenn beispielsweise in einem Projekt bereits mit der Programmierung begonnen wurde und der Kunde im Nachhinein eine Änderung an der Spezifikation vornehemen möchte, ist dies laut Wasserfallmodell nicht mehr möglich.
+\begin{figure}[h]
+\centering
+	\includegraphics[scale=0.6]{Images/wasserfallmodell}
+	\caption{Das Wasserfallmodell\cite{scrumkompakt:wasserfallmodell}}
+	\label{fig:wasserfallmodell}
+\end{figure}
+Vor allem bei langläufigen Projekten ist der Einsatz des Wasserfallmodells sehr problematisch, da sich über lange Zeiträume oft die technischen Gegebenheiten und Umgebungsbedingungen ändern können. Sollte bei weit fortgeschrittenem Projektverlauf ein Fehler in einer früheren Phase entdeckt werden, ist nicht selten ein Projektabbruch die einzige Möglichkeit den Schaden einigermaßen zu begrenzen.
+\paragraph*{}
+Um die oben genannten Probleme aus der Welt zu schaffen, oder zumindest zu verbessern wurde das Erweiterte Wasserfallmodell nach Royce entwickelt.
+\begin{figure}[h]
+\centering
+	\includegraphics[scale=0.6]{Images/wasserfallmodell_erweitert}
+	\caption[Erweitertes Wasserfallmodell]{Das Erweiterte Wasserfallmodell nach Royce\cite{scrumkompakt:wasserfallmodell}}
+	\label{fig:wasserfallmodell_erweitert}
+\end{figure}
+Bei dieser Version des Wasserfallmodells sind Rücksprünge erlaubt. Nichtsdestotzotz müssen nach einem Rücksprung auf eine vorhergehende Phase, alle danach folgenden Phasen wiederholt werden. Diese Änderung verbessert das Modell zwar drastisch, allerdings werden dadurch noch lange nicht alle grundlegenden Fehler ausgemerzt.
+\section{Vorteile des Wasserfallmodells}
+\label{sec:wasserfallmodell_vorteile}
+Da das Wasserfallmodell ein sehr altes und rudimentäres Vorgehensmodell ist, hat es, auf heutige Projekte bezogen, nicht viele Vorteile. \newline 
+Ein entscheidender Vorteil ist allerdings die Einfachheit des Modells. Es lässt sich in der Praxis sehr leicht auf ein Projekt anwenden und vermittelt schnell und einfach den Eindruck von Übersicht und Kontrolle. Entgegen aller Kritik, kann das Wasserfallmodell also durchaus sinnvoll sein, solange sich das Projekt im sehr kleinen Rahmen bewegt.
+\section{Nachteile des Wasserfallmodells}
+\label{sec:wasserfallmodell_nachteile}
+Wie bereits in Kapitel \ref{ch:wasserfallmodell} ausführlich erklärt, ist das Wasserfallmodell aufgrund der fehlenden flexibilität und der Tatsache, dass der gesamte Projektverlauf linear sein muss, in der Praxis für heutige Projekte nahezu unbrauchbar. Werden Fehler erst spät im Projektverlauf entdeckt, führt das zu sehr kostspieligen Änderungen. Des weiteren tritt durch die lange Laufzeit eines solchen Projektes, der soginannte "Return On Investment"\footnotemark erst sehr spät nach Beginn des Projektes ein.
+\footnotetext{"Der Begriff Return on Investment (...) ist eine betriebswirtschaftliche Kennzahl zur Messung der Rendite einer unternehmerischen Tätigkeit, gemessen am Gewinn im Verhältnis zum eingesetzten Kapital."\cite{wikipedia:roi}}
+\paragraph*{}
+Auch ist es beim Wasserfallmodell oft schwierig, die einzelnen Phasen voneinander abzugrenzen. Übergänge die in der Theorie klar definiert sind, können in der Praxis oftmals eher fließend sein.
 
 \chapter{Inkrementalmodell}
 

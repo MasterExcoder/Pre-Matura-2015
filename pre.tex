@@ -9,7 +9,8 @@
 \usepackage{caption}
 
 \author{Samuel Hammer}
-\title{Vorgehensmodelle zur Projektentwicklung}
+\publishers{HTBLVA Spengergasse}
+\title{Vorgehensmodelle zur Projektentwicklung in der Informationstechnik}
 \subtitle{Ausarbeitung für die mündl. PRE Matura 2015}
 
 \bibliography{quellen.bib}
@@ -27,18 +28,19 @@ Die existierenden Vorgehensmodelle lassen sich grob in zwei Kategorien unterteil
 	\item Klassische Phasenmodelle
 	\item Vorgehensmodelle zur agilen Softwareentwicklung
 \end{itemize}
-Abhängig vom Anwendungsfall, können verscheidene Vorgehensmodelle verschiedene Vor- und Nachteile für das Projekt haben. In der Praxis gibt es also in den seltensten Fällen ein Modell, das für die Durchführung des Projektes hundertprozentig passt.
+Abhängig vom Anwendungsfall, können verscheidene Vorgehensmodelle verschiedene Vor- und Nachteile für das Projekt haben. In der Praxis gibt es also in den seltensten Fällen ein Modell, das für die Durchführung des Projektes hundertprozentig passt. \par
 \begin{figure}[h]
 \centering
 	\includegraphics[scale=0.6]{Images/vorgehensmodelle_diagramm}
 	\caption{Übersicht über Vorgehensmodelle\label{fig:vorgehensmodelle_diagramm}}
 \end{figure}
+In der folgenden Arbeit sollen die jeweiligen Vor- und Nachteile der verschiedenen Vorgehensmodelle erarbeitet und dokumentiert werden, sowie ein abschließender Vergleich inkl. Konklusion über das geeignetste Vorgehensmodell gezogen werden.
 
 \newpage
 
 \section{Phasenmodelle}
 \label{sec:phasenmodelle}
-Phasenmodelle sind "standardisierte Projektstruckturen für die Erstellung des Projektprodukts". \footnote{\cite{wikipedia:projektphase}}
+Phasenmodelle sind "standardisierte Projektstruckturen für die Erstellung des Projektprodukts".\cite{wikipedia:projektphase}
 Da allerdings nicht auf jedes Projekt die selben Phasen zutreffen, gibt es verschieden Abwandlungen. Für Softwareprojekte wird in der Regel folgende Phasenstruktur verwendet:
 \begin{enumerate}
 	\item Anforderungen
@@ -60,7 +62,7 @@ Agile Softwareentwicklung gibt es seit den frühen 1990er Jahren. Mit steigender
 	\item \textbf{Zusammenarbeit mit dem Kunden} mehr als Vertragsverhandlung
 	\item \textbf{Reagieren auf Veränderung} mehr als das Befolgen eines Plans
 \end{itemize}
-Das heißt, obwohl wir die Werte auf der rechten Seite wichtig finden, schätzen wir die Werte auf der linken Seite höher ein.“ \footnote{\cite{agilemanifesto}}
+Das heißt, obwohl wir die Werte auf der rechten Seite wichtig finden, schätzen wir die Werte auf der linken Seite höher ein.“\cite{agilemanifesto}
 
 \chapter{Wasserfallmodell}
 \label{ch:wasserfallmodell}
@@ -122,14 +124,58 @@ Ein wesentlicher Vorteil des Spiralmodells im Vergleich mit anderen Vorgehensmod
 
 \section{Nachteile des Spiralmodells}
 \label{sec:spiralmodell_nachteile}
-Einer der zentralen Aspekte, welche das Spiralmodell ausmachen, ist gleichzeitig ein großer Nachteil; der Prototyp. Werden beim ersten Prototyp Fehler im Design gemacht, so ist es im Nachhinein schwierig diese noch zu beheben und es besteht die Gefahr, dass das Endprodukt nicht zufriedenstellend ist.
+Einer der zentralen Aspekte, welche das Spiralmodell ausmachen, ist gleichzeitig ein großer Nachteil; der Prototyp. Werden beim ersten Prototyp Fehler im Design gemacht, so ist es im Nachhinein schwierig diese noch zu beheben und es besteht die Gefahr, dass das Endprodukt nicht zufriedenstellend ist. 
+Durch die Komplexität und, immer wiederkehrenden Risikoanalysen und den fortlaufenden Prototypen, ist das Spiralmodell auch mit einem verhälnismäßig sehr hohen Managementaufwand verbunden.
 
 
-\chapter{Evolutionsmodelle}
+\chapter{V-Modell}
+\label{ch:vmodell}
+Das V-modell ist ein weiteres, auf dem Wasserfallmodell aufbauendes, Vorgehensmodell in der Softwareentwicklung. Das Projekt wird bei diesem Modell in Phasen aufgeteilt, daher zählt es ebenfalls zu den oben beschriebenen Phasenmodellen. (Siehe Kapitel \ref{sec:phasenmodelle}) Da das V-Modell allerdings neben Entwicklungsphasen auch Phasen zur Qualitätssicherung enthält, unterscheided es sich deutlich von anderen Phasenmodellen, wie dem Wasserfall- oder Spiralmodell. \par
+\begin{figure}[h]
+\centering
+	\includegraphics[scale=0.6]{Images/vmodell}
+	\caption[Das V-Modell]{Das V-Modell\cite{wikipedia:vmodell}}
+	\label{fig:vmodell}
+\end{figure}
+Wie beim Wasserfallmodell, ist das Ergebnis einer Phase eine bindende Vorgabe für die nächsttiefere bzw. nächsthöhere Projektphase. Den Entwicklungsphasen auf der linken Seite stehen die jeweils zugehörigen Testphasen auf der rechten Seite gegenüber. Durch diese Gegenüberstellung wird eine sehr hohe Testabdeckung gewährleistet, da zu jeder Entwicklungsphase genau eine Testphase gehört.
+\section{Vorteile des V-Modells}
+\label{sec:vmodell_vorteile}
+Das V-Modell ist ein äußerst umfassendes Vorgehensmodell. Es integriert viele Aspekte des Entwicklungsprozesses und ist daher leicht erweiterbar und anpassbar. Durch die klare Struktur der Phasen ist das Modell leicht verständlich und lässt sich sehr einfach auf ein Softwareprojekt anwenden.
 
-\section{Rapid Prototyping}
 
-\chapter{Spiralmodell}
+\section{Nachteile des V-Modells}
+\label{sec:vmodell_nachteile}
+Ein entscheidender Nachteil des V-Modells ist, dass es zu allgemein und generisch ist, um es auf hochkomplexe Softwareprojekte anzuwenden. Obwohl es sehr einfach verständlich ist, ist es nicht für Projekte im kleinen Rahmen geeignet, da diese meist nicht über die notwendigen Ressourcen verfügen die vorgegebenen Phasen auch einzuhalten.
+
+
+\chapter{Extreme Programming}
+\label{ch:extremeprogramming}
+Extreme Programming\footnote{In weiterer Folge nur noch als XP bezeichnet} ist ein agiles Vorgehensmodell in der Softwareentwicklung, bei dem das Lösen von konkreten programmiertechnischen Aufgaben im Vordergrund steht. Dabei kommt der Formalen Komponente des Projektes weniger Bedeutung zu, was XP zu einer eher umstrittenen Methode macht.
+\paragraph*{}
+Das Ziel von XP ist es, das Produkt nicht vollständig zu einem späteren Zeitpunkt in der Zukunft auszuliefern, sondern viel mehr die Features genau dann auszuliefern, wenn der Kunde sie benötigt. Es werden von Anfang an Tests durhgeführt, was ein konstantes Feedback gewährleistet und dem Team so ermöglicht Fehler früh zu erkennen und zu beheben. Auch die Kommunikation mit dem Kunden spielt eine zentrale Rolle bei XP, so soll möglichst schnell auf Kundenwünsche oder etwaige Change Requests reagiert werden.
+\paragraph*{}
+XP definiert fünf zentrale Werte, welche zur erfolgreichen Ausführung eines Softwareprojektes führen sollen:
+\begin{itemize}
+	\item Einfachheit
+	\item Kommunikation
+	\item Feedback
+	\item Respekt
+	\item Mut
+\end{itemize}
+Das sind abstrakte Werte, die als Orientierung für alle Beteiligten am Projekt gelten.
+\paragraph*{}
+Des Weiteren gibt es 14 Prinzipien, die eine Brücke zwischen den Abstrakten Werten von XP und konkret annwendbaren Praktiken bilden sollen. Diese sind: \newline
+
+
+
+\chapter{Scrum}
+\label{ch:scrum}
+
+
+
+\chapter{Zusammenfassung, Vergleich und Empfehlung}
+\label{ch:zusammenfassung}
+
 
 
 \nocite{*}

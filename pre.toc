@@ -20,8 +20,14 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {3.2}Nachteile des Spiralmodells}{9}{section.3.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {4}Evolutionsmodelle}{10}{chapter.4}
+\contentsline {chapter}{\numberline {4}V-Modell}{10}{chapter.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.1}Rapid Prototyping}{10}{section.4.1}
+\contentsline {section}{\numberline {4.1}Vorteile des V-Modells}{10}{section.4.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {5}Spiralmodell}{11}{chapter.5}
+\contentsline {section}{\numberline {4.2}Nachteile des V-Modells}{11}{section.4.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {5}Extreme Programming}{12}{chapter.5}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {6}Scrum}{13}{chapter.6}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {7}Zusammenfassung, Vergleich und Empfehlung}{14}{chapter.7}

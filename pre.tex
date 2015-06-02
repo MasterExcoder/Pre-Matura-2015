@@ -164,8 +164,42 @@ XP definiert fünf zentrale Werte, welche zur erfolgreichen Ausführung eines So
 \end{itemize}
 Das sind abstrakte Werte, die als Orientierung für alle Beteiligten am Projekt gelten.
 \paragraph*{}
-Des Weiteren gibt es 14 Prinzipien, die eine Brücke zwischen den Abstrakten Werten von XP und konkret annwendbaren Praktiken bilden sollen. Diese sind: \newline
+Des Weiteren gibt es 14 Prinzipien, die eine Brücke zwischen den Abstrakten Werten von XP und konkret annwendbaren Praktiken bilden sollen. Diese sind: 
+\begin{center}
+\textbf{Menschlichkeit, Wirtschaftlichkeit, Beidseitiger Vorteil, Selbstgleichheit, Verbesserungen, Vielfältigkeit, Reflexion, Lauf, Gelegenheiten wahrnehmen, Redundanzen vermeiden, Fehlschläge hinnehmen, Qualität, Kleine Schritte und Akzeptierte Verantwortung.}\footnote{Alle sinngemäß übersetzt}
+\end{center}
+Auf diese Prinzipien wird bei der Verwendung von XP viel Wert gelegt. Sie müssen auf jedenfall beachtet und bei der Entwicklung berücksichtigt werden.
+\paragraph*{}
+All diese abstrakten Werte und Prinzipien bringen allerdings wenig, wenn sie nicht in konkreten Praktiken umgesetzt werden. Daher wurden für XP einige Praktiken, sozusagen "best practices", definiert, die in der Realität der Softwareentwicklung angewendet werden können.
+\section{XP Praktiken}
+\label{sec:xp_praktiken}
 
+\subsection{Pair-Programming}
+\label{subsec:pairprogramming}
+Beim Pair-Programming arbeiten immer zwei Programmierer gleichzeitig an einem konkreten Problem. Dabei ist einer derjenige der tatsächlich Programmiert (der "Driver") während der Andere eine Kontrollfunktion innehat bzw. einen gesamtüberblick über den geschriebenen Code haben sollte (der "Partner"). Dadurch wird der Wissenstransfer gefördert und Anfänger können sich leichter in ein Projekt einarbeiten. Des Weiteren wird die Fehlerdichte erheblich verringert, da ein ständiges Code Review stattfindet.
+\subsection{Kollektives Eigentum}
+Es soll verhindert werden, dass einzelne Programmierer einen Teil des Projekts als ihr Eigentum ansehen. Daher werden konkrete Aufgabenstellungen zuerst an das gesamte Team gestellt. Durch Pair-Programming wechselnde Aufgabengebiete, soll dies verhindert werden.
+\subsection{Permanente Integration}
+Es sollen einzelne Komponenten, and denen unter Umständen separat voneinander entwickelt wird, regelmäßig und kontinuierlich zu einem Großen Gesamtsystem zusammengefügt werden. Dadurch sollen Fehler früh erkannt werden. Dieser Schritt geschieht bei XP in der Regel täglich.
+\subsection{Test-Driven-Development (TDD)}
+\label{subsec_tdd}
+Bei testgetriebener Entwicklung geht es darum, die Unit-Tests für eine bestimmte Funktion VOR der eigentlichen Implementierung zu schreiben. Mit Hilfe dieser Technik soll verhindert werden, dass der Entwickler das eigentliche Ziel aus den Augen verliert.
+\subsection{Kundenbeziehungen}
+XP basiert in seiner Gesamtheit auf einer engen Beziehung zwischen dem Kunden und dem Projektteam. Der Kunde das Iterationsziel in Form von User-Storys vor und führt nach der Fertigstellung selbst Akzeptanztests durch. Eine Vorraussetzung für diese enge Zusammenarbeit ist, dass der Kunde immer für das Projektteam erreichbar sein muss und umgekehrt.
+\subsection{Refactoring}
+Der Source Code soll laufend verbessert werden. Das geschieht durch wiederkehrende Code Reviews und laufendes Refactoring. XP distanziert sich vom Anspruch an Code, welcher von Anfang an perfekt ist. Dies wird allerdings durch laufende Fehlersuche und Fehlerbehebungen ausgeglichen.
+\subsection{Keine Überstudnen}
+Überstunden sollen vermieden und stattdessen die normale 40-stunden-Woche eingehalten werden, da bei Überstunden auf Dauer die Konzentrationsfähigkeit und Freude an der Arbeit verloren gehen.
+\subsection{Iterationen}
+Iterationen sollen kurz und in regelmäßigen Abständen fertiggestellt werden. Dadurch kann dem Kunden auf regelmäßiger Basis ein lauffähiges Produkt vorgezeigt werden. Dieses Vorgehen erlaubt schnelle Feedbackschleifen und direktes reagieren auf Kundenwünsche bzw. Fehler.
+\subsection{Metapher}
+Bei traditionell ausgeführten Softtwareprojekten gibt es oft eine hohe Diskrepanz zwischen der Fachsprache des Auftraggebers und der des AUftragnehmers. Um Missverständnissen vorzubeugen werden deshalb die Anforderungen des Kunden von diesem selbst als sogenannte User-Storys beschrieben. In diesen User-Storys werden die Anforderungen als verständliche, mit Metaphern versehene Alltagsgeschichten definiert.
+\subsection{Coding-Standards}
+Alle Programmierer in einem Team sollten sich an die gleichen Coding-Standards halten. Durch das Einsetzen von vielen Programmierern in immer wechselnden Bereichen, ist es nur durch solche Standars möglich eine produktive Zusammenarbeit zu erreichen.
+\subsection{Einfaches Design}
+Nach dem Motto "Keep it small and simple" wird das Design des Softwareprojektes bewusst einfach gehalten. Es wird im Zuge dessen auch auf vorbereitende Maßnahmen für eventuelle spätere Funktionen verzichtet.
+\subsection{Planning Game}
+Neue Versionen der Software werden in einem Planning-Game, auch als Planning-Poker bekannt, spezifiziert und der Aufwand zu deren Umsetzung abgeschätzt. An diesem iterativen Prozess sind sowohl Entwicklungsmannschaft als auch Kunde beteiligt.\cite{wikipedia:xp}
 
 
 \chapter{Scrum}

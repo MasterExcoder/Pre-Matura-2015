@@ -60,16 +60,36 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {6.1.1}Product Owner}{16}{subsection.6.1.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.2}Entwicklungsteam}{17}{section.6.2}
+\contentsline {subsection}{\numberline {6.1.2}Entwicklungsteam}{17}{subsection.6.1.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.3}Scrum Master}{17}{section.6.3}
+\contentsline {subsection}{\numberline {6.1.3}Scrum Master}{17}{subsection.6.1.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {7}Feature Driven Development}{18}{chapter.7}
+\contentsline {section}{\numberline {6.2}Artefakte}{17}{section.6.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {8}Simultaneous Engineering}{19}{chapter.8}
+\contentsline {subsection}{\numberline {6.2.1}Product Backlog}{17}{subsection.6.2.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {9}Rational Unified Process}{20}{chapter.9}
+\contentsline {subsection}{\numberline {6.2.2}Sprint Backlog}{17}{subsection.6.2.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {10}Stage-Gate Modell}{21}{chapter.10}
+\contentsline {subsection}{\numberline {6.2.3}Product Increment}{18}{subsection.6.2.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {11}Zusammenfassung, Vergleich und Empfehlung}{22}{chapter.11}
+\contentsline {section}{\numberline {6.3}Aktivit\IeC {\"a}ten}{18}{section.6.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {6.3.1}Sprint Planning}{18}{subsection.6.3.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {6.3.2}Daily Scrum}{18}{subsection.6.3.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {6.3.3}Sprint Review}{18}{subsection.6.3.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {6.3.4}Sprint Retrospektive}{19}{subsection.6.3.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {6.3.5}Product Backlog Refinement}{19}{subsection.6.3.5}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {7}Feature Driven Development}{20}{chapter.7}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {8}Simultaneous Engineering}{21}{chapter.8}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {9}Rational Unified Process}{22}{chapter.9}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {10}Stage-Gate Modell}{23}{chapter.10}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {11}Zusammenfassung, Vergleich und Empfehlung}{24}{chapter.11}

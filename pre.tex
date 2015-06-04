@@ -212,7 +212,7 @@ Weiters beruht Scrum darauf, dass nicht nur das Produkt kontinuierlich weiterent
 	\caption[Scrum Prozess]{Der Scrum Prozess\cite{wikipedia:scrum}}
 	\label{fig:spiralmodell}
 \end{figure}
-Das Scrum Framework definiert 5 Aktivitäten, 3 Artefakte und 3 Rollen.
+Das Scrum Framework definiert 3 Rollen, 3 Artefakte und 5 Aktivitäten.
 
 \section{Scrum Rollen}
 \label{sec:scrum_rollen}
@@ -227,7 +227,44 @@ Entwicklungsteams haben meist eine Größe von drei bis 9 Mitgliedern, wobei all
 Der Scrum Master kümmert sich um die fehlerfreie Ausführung des gesamten Scrum-Prozesses. Er arbeitet eng mit dem Entwicklungsteam zusammen, gehört diesem jedoch selbst (meistens) nicht an. Der Scrum Master ist nicht der Vorgesetzte des Entwicklungsteam, er versteht sich vielmehr als Coach, welcher dem Team bei Problemen diverser Art beisteht und zur Behebung dieser beiträgt. Zu den Aufgaben des Scrum Masters gehören auch das moderieren von Treffen und die Überprüfung der Einhaltung der Scrum Regeln.
 
 \section{Artefakte}
+\subsection{Product Backlog}
+Unter Product Backlog wird die Auflistung aller vom Kunden gestellten Anforderungen an das Projekt verstanden. Es ist dynamisch, wird also nicht nur einmal erstellt und dann abgearbeitet sondern wird auf regelmäßiger Basis weiterentwickelt. Der Product Owner ist für das Product Backlog der alleinige verantwortliche. Er kümmert sich unter Anderem auch um die Priorisierung der Backlogeinträge.
+Die Kundenanforderungen im Product Backlog werden soweit möglich nicht in technischner Fachsprache, sondern anwendungsorientiert und fachlich als User Stories definiert.
+\subsection{Sprint Backlog}
+Der Sprint Backlog ist, ähnlich wie der Product Backlog, eine Auflistung der Anforderungen. Im Sprint Backlog werden allerdings nur einige wenige Einträge des Product Backlogs übernommen, die für den aktuellen Sprint anfallen. 
+\subsection{Product Increment}
+"Das Inkrement ist die Summe aller Product-Backlog-Einträge, die während des aktuellen und allen vorangegangenen Sprints fertiggestellt wurden. Am Ende eines Sprints muss das neue Inkrement in einem nutzbarem Zustand sein und der Definition of Done entsprechen."\cite{wikipedia:scrum}
 
+\section{Aktivitäten}
+\subsection{Sprint Planning}
+Im Sprint Planning spielen zwei essentielle Fragen eine Rolle:
+\begin{itemize}
+	\item Was kann im kommenden Sprint entwickelt werden?
+	\item Wie wird die Arbeit im kommenden Sprint erledigt?
+\end{itemize}
+Das Sprint Planning dauert in Summe maximal 2 stunden pro Sprint Woche.
+Der Product Owner stellt dem Entwicklungsteam die definierten einträge des Product Backlogs vor. Zunächst arbeitet das gesamte Team daran, die festgelegten Backlogeinträge zu verstehen und die Arbeit einzuteilen.
+Es werden auch die Akzeptanzkriterien festgelegt, welche am Ende des Sprints darüber entscheiden ob das neue Inkrement der "Definition of Done" entspricht, also fertig ist. In weiterer Folge wird der Aufwand abgeschätzt und die Anzahl der Product Backlog Einträge, welche in diesem Sprint erledigt werden können wird festgelegt. Über die Reihenfolge und Priorisierung der Einträge entscheidet dabei der Product Owner alleine.
+In weiterer Folge wird dann im Detail geplant, welche Tasks zur Erfüllung der Product Backlog Einträge notwendig sind.
+Das Ergebnis des Sprint Plannings ist der Sprint Backlog
+\subsection{Daily Scrum}
+Der Sinn des Daily Scrum ist, dass sich alle Teammitglieder einmal am Tag zu einem kurzen, maximal 15 Minuten langen, Meeting zusammenfinden. Dabei sollen allerdings nicht Probleme und auftretende Bugs besprochen werden, sondern ein aktiver Informationsaustausch stattfinden. Jedes Teammitglied gibt kurz und bündig eine Übersicht über den Status der aktuell bearbeiteten Tasks. so weiß jedes Mitglied des Entwicklungsteams immer genau über den Status der anderen Mitglieder bescheid.
+Product Owner und Scrum Master sind beim Daily Scrum zwar häufig anwesend, beteiligen sich aber nicht aktiv am Gespräch.
+\subsection{Sprint Review}
+Das Sprint Review findet am Ende eines jeden Sprints statt. Dabei wird überprüft ob das Team die zu Beginn im Sprint Planning festgelegten Ziele erreicht wurden. Am Sprint Review nehmen zusätzlich zum Scrum Team auch die Steakholder Teil und es wird besprochen wie die weitere Vorgehensweise aussieht. Weiters ist es von Vorteil wenn auch Kunden und Anwender an diesen Besprechungen teilnehmen, da diese die Funktionalität bzw. bedienbarkeit des fertigen Inkrements am besten beurteilen können.
+\subsection{Sprint Retrospektive}
+Die Sprint Retrospektive findet, ebenso wie das Sprint Review, am Ende eines Sprints statt. Im Gegensatz zum Sprint Review, nehmen daran allerdings nur Mitglieder des Scrum Teams teil. Steakholder können in manchen fällen nur auf Einladung dazu kommen. Das Team überprüft seine Arbeitsweise auf kritische Art und Weise, daher müssen auch unangenehmen Wahrheiten offen geäußert werden. In weiterer Folge werden dann Verbesserungsvorschläge festgelegt und dokumentiert.
+\subsection{Product Backlog Refinement}
+Als Product Backlog Refinement bezeichnet man den laufenden Prozess, bei dem der Product Owner zusammen mit dem entwicklungsteam den Product Backlog akutalisiert bzw. weiterentwickelt.
+Es gibt eine Reihe von Aktivitäten, welche zum PBR gehören, unter Anderem:
+\begin{itemize}
+	\item Ordnen von Einträgen
+	\item Löschen von einträgen die nicht mer benötigt werden
+	\item Hinzufügen von neuen Einträgen
+	\item Planung von Releases
+	\item Detaillieren von Einträgen
+\end{itemize}
+Da die Steakholder Wertvolle Informationen und Anmerkungen für das Produkt bzw. das Product Backlog liefern können, finden meistens regelmäßig auch sogenannte Product-Backlog-Refinement-Meetings zusammen mit ausgewählten Stakeholdern statt.
 
 \chapter{Feature Driven Development}
 
